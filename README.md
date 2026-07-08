@@ -35,8 +35,6 @@
 - [🔮 Future Improvements](#-future-improvements)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
-- [🙏 Acknowledgements](#-acknowledgements)
-- [👤 Author](#-author)
 
 ---
 
