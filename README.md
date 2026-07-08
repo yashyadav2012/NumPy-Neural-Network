@@ -1,14 +1,13 @@
 <!-- Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
   <img src="https://img.shields.io/badge/NumPy-1.26+-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge" alt="Made with Love" />
 </p>
 
 ---
 
-<h1 align="center">🧠 NumPy Neural Network: Solving XOR from Scratch</h1>
+<h1 align="center">🧠 NumPy Neural Network</h1>
 
 <p align="center">
   <strong>A feedforward neural network implemented entirely from scratch using only NumPy — no TensorFlow, no PyTorch, no Keras. Just pure math and matrix operations.</strong>
@@ -31,11 +30,6 @@
 - [🚀 Usage](#-usage)
 - [📊 Expected Output](#-expected-output)
 - [📈 Sample Results](#-sample-results)
-- [📁 Project Structure](#-project-structure)
-- [🔮 Future Improvements](#-future-improvements)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-
 ---
 
 ## 🔍 Project Overview
@@ -339,74 +333,6 @@ The model successfully converges within 10,000 epochs:
 
 The network learns to produce outputs very close to `0` or `1`, demonstrating strong confidence in its classifications. The hidden layer successfully transforms the non-linearly separable XOR space into a linearly separable representation — exactly what theory predicts.
 
----
-
-## 📁 Project Structure
-
-```
-numpy-neural-network-xor/
-│
-├── train.py                 # Main training script (entry point)
-├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation (this file)
-├── LICENSE                  # MIT License
-├── CONTRIBUTING.md          # Contribution guidelines
-├── CODE_OF_CONDUCT.md       # Code of conduct
-├── .gitignore               # Git ignore rules
-│
-├── src/                     # Source package
-│   ├── __init__.py          # Package initialiser
-│   ├── model.py             # NeuralNetwork class (forward + backprop)
-│   └── utils.py             # Pretty-printing & visualisation helpers
-│
-├── notebooks/               # Jupyter notebooks
-│   └── xor_neural_network.ipynb
-│
-└── figures/                 # Generated visualizations (after --plot)
-    ├── loss_curve.png       # Training loss over epochs
-    └── decision_boundary.png# Network decision boundary
-```
-
----
-
-## 🔮 Future Improvements
-
-Here are planned enhancements to extend the project:
-
-- [ ] **Additional activation functions** — ReLU, Tanh, Leaky ReLU, Softmax
-- [ ] **Configurable architecture** — support for multiple hidden layers and variable neuron counts
-- [ ] **Other logic gates** — AND, OR, NAND, NOR, XNOR
-- [ ] **Learning rate scheduling** — step decay, exponential decay, cosine annealing
-- [ ] **Batch normalization** — improve training stability
-- [ ] **Regularization** — L1 (Lasso) and L2 (Ridge) penalty terms
-- [ ] **Interactive visualization** — real-time training dashboard
-- [ ] **Unit tests** — comprehensive test suite with `pytest`
-- [ ] **CLI interface** — configurable hyperparameters via command-line arguments
-- [ ] **Export/import weights** — save and load trained models
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome and appreciated! Whether it's a bug fix, a new feature, or an improvement to documentation — all contributions make a difference.
-
-Please read the [Contributing Guidelines](CONTRIBUTING.md) before getting started.
-
-**Quick start:**
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
-You are free to use, modify, and distribute this project for personal, academic, or commercial purposes.
 
 ---
 
